@@ -17,9 +17,9 @@ function buildBook()
          
             $('#results5').html("<img src="+result["ISBN:"+$('#number-books').val()].cover.large+">");
             $("#results").html("Title: " + result["ISBN:"+$('#number-books').val()].title);
-            $("#results1").html("Author: " + result["ISBN:"+$('#number-books').val()].authors.name);
+            $("#results1").html("Author: " + result["ISBN:"+$('#number-books').val()].authors[0].name);
             $("#results2").html("Publisher: " + result["ISBN:"+$('#number-books').val()].publish_date);
-            $("#results3").html("ISBN: " + result["ISBN:"+$('#number-books').val()]);
+            $("#results3").html("ISBN: " +$('#number-books').val());
             $("#results4").html("Pages: " + result["ISBN:"+$('#number-books').val()].number_of_pages);
           
            
