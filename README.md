@@ -8,4 +8,6 @@ and results in CSS.
 
 # Midterm Solution (Provided by Professor)     
 1. Midterm Solution: OpenLibraryApi    
-https://midtermcst336ethanherndon.herokuapp.com//partll/index.html  
+https://midtermcst336ethanherndon.herokuapp.com//partll/index.html      
+
+Use ISBN numbers 0451526538 and 1594200092 to see the magic!    
